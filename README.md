@@ -31,14 +31,13 @@ laptop
 
 ## Tinkercad
 
-![image](https://user-images.githubusercontent.com/89164540/157997098-a5f6e114-3ff1-4e60-9824-b54b488fc991.png)
+![image](https://user-images.githubusercontent.com/89164540/157997306-6623a002-3c13-409e-8a46-adfde3a0f138.png)
 
 * The button used instead of face detection triggering
 
 ![image](https://user-images.githubusercontent.com/89164540/157997110-0d5614fb-8b0a-4c0b-bd05-837e74dbc413.png)
 
 ## Testing the solution
-Is used:
 - Arduino IDE
 - Python IDE (example: Visual Studio Code)
 - Command Prompt and Anaconda Prompt
