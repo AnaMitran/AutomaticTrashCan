@@ -31,7 +31,7 @@ laptop
 
 ## Tinkercad
 
-![image](https://user-images.githubusercontent.com/89164540/157997306-6623a002-3c13-409e-8a46-adfde3a0f138.png)
+![image](https://user-images.githubusercontent.com/89164540/157997364-b25c58ac-02d8-4a38-a25e-adb268fd144a.png)
 
 * The button used instead of face detection triggering
 
