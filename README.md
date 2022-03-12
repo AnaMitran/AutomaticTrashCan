@@ -43,9 +43,9 @@ laptop
 - Command Prompt and Anaconda Prompt
 - OpenCV / OpenCV3
 
-Face detection (webcam_cv3.py)
+## Face detection (webcam_cv3.py)
 The Command Prompt is running:
-python webcam_cv3.py haarcascade_frontalface_default.xml
+`python webcam_cv3.py haarcascade_frontalface_default.xml`
 
 The built-in webcam and a special window called "Video" open. Into the
 the capture data / coordinates are saved in the .xml file. And in the file
