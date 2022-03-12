@@ -35,7 +35,7 @@ laptop
 
 * The button used instead of face detection triggering
 
-![image](https://user-images.githubusercontent.com/89164540/157997110-0d5614fb-8b0a-4c0b-bd05-837e74dbc413.png)
+![image](https://user-images.githubusercontent.com/89164540/157997382-9955e2d8-2b9b-4106-819d-4430bc026d9b.png)
 
 ## Testing the solution
 - Arduino IDE
@@ -59,9 +59,9 @@ make decisions in .py file to connect to arduino.
 Runs in the Python IDE and can be seen in the terminal (“on…” /
 “Off…”).
 
-![image](https://user-images.githubusercontent.com/89164540/157997190-e7aaf1a9-64f9-4a24-86d5-555e38ff1b9e.png)
+![image](https://user-images.githubusercontent.com/89164540/157997394-c193288f-a14e-4c46-9377-f0bdef74d2c3.png)
 
-![image](https://user-images.githubusercontent.com/89164540/157997197-e0075c7f-56f0-470f-9b66-2f236be5871a.png)
+![image](https://user-images.githubusercontent.com/89164540/157997405-faf18489-9860-4ddd-afe3-cd16daa971d4.png)
 
 ## Arduino code (smart_bin_with_webcam.ino)
 Here the data from the ultrasonic sensors are read and processed. The information is taken over
@@ -75,7 +75,7 @@ configure all items. After compiling the code, the person will
 it must be positioned in front of the camera and will be able to test the sensors by proximity
 of these, following which the servomotors will open the compartments one by one.
 
-![image](https://user-images.githubusercontent.com/89164540/157997203-d66039ca-41d9-443e-9f0c-f48abd61a4cf.png)
+![image](https://user-images.githubusercontent.com/89164540/157997420-17195f2c-189e-4a80-98a9-723a4465f3be.png)
 
 If we approach an object at a distance of less than 30 cm from the second
 sensor, I set the LED on the left of the image to light up (implementation of
@@ -83,13 +83,14 @@ troubleshooting - check if the sensor and distance calculation work
 appropriate), but if a person's face is not recognized by
 room, basket 2 (black) does not open:
 
-![image](https://user-images.githubusercontent.com/89164540/157997209-c11c5ce7-eabb-4095-97f2-1b853aa1edf1.png)
+![image](https://user-images.githubusercontent.com/89164540/157997429-2133e777-6044-4b1a-92d8-9c44e36c19af.png)
 
 When the camera also identifies a person, the lid of the basket is
 raised by servomotor:
 
-![image](https://user-images.githubusercontent.com/89164540/157997213-c1c36410-12db-4acb-bb82-203fc88b4662.png)
+![image](https://user-images.githubusercontent.com/89164540/157997441-57aa3374-6ec6-4726-871f-7ca6cfd337da.png)
 
 Important references:
 https://pythonforundergradengineers.com/python-arduino-LED.html
+
 https://realpython.com/face-detection-in-python-using-a-webcam/
