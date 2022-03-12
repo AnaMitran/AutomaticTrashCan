@@ -29,20 +29,20 @@ from the trash can
 - Additional materials: cardboard, glue, scotch tape, integrated functional camera
 laptop
 
-## Schema Tinkercad
+## Tinkercad
 
-! [image] (https://user-images.githubusercontent.com/89164540/157996785-c6916246-6f61-41e9-b598-3f6cadd2999b.png)
+![image](https://user-images.githubusercontent.com/89164540/157997098-a5f6e114-3ff1-4e60-9824-b54b488fc991.png)
 
-* The button takes the place of the camera
+* The button used instead of face detection triggering
 
-! [image] (https://user-images.githubusercontent.com/89164540/157996829-621157ac-39b3-4607-a1d0-6233c5b58e02.png)
+![image](https://user-images.githubusercontent.com/89164540/157997110-0d5614fb-8b0a-4c0b-bd05-837e74dbc413.png)
 
 ## Testing the solution
 Is used:
-● Arduino IDE
-● Python IDE (example: Visual Studio Code)
-● Command Prompt and Anaconda Prompt
-● OpenCV / OpenCV3
+- Arduino IDE
+- Python IDE (example: Visual Studio Code)
+- Command Prompt and Anaconda Prompt
+- OpenCV / OpenCV3
 
 Face detection (webcam_cv3.py)
 The Command Prompt is running:
@@ -60,9 +60,9 @@ make decisions in .py file to connect to arduino.
 Runs in the Python IDE and can be seen in the terminal (“on…” /
 “Off…”).
 
-! [image] (https://user-images.githubusercontent.com/89164540/157996895-1fd72315-4aa5-4611-9a4e-12ba2aa39f84.png)
+![image](https://user-images.githubusercontent.com/89164540/157997190-e7aaf1a9-64f9-4a24-86d5-555e38ff1b9e.png)
 
-! [image] (https://user-images.githubusercontent.com/89164540/157996906-4cd99dcc-0be5-4086-8064-1edf16ba45c4.png)
+![image](https://user-images.githubusercontent.com/89164540/157997197-e0075c7f-56f0-470f-9b66-2f236be5871a.png)
 
 ## Arduino code (smart_bin_with_webcam.ino)
 Here the data from the ultrasonic sensors are read and processed. The information is taken over
@@ -76,7 +76,7 @@ configure all items. After compiling the code, the person will
 it must be positioned in front of the camera and will be able to test the sensors by proximity
 of these, following which the servomotors will open the compartments one by one.
 
-! [image] (https://user-images.githubusercontent.com/89164540/157996971-7ed36333-8b1d-4140-a703-76c9885a35ee.png)
+![image](https://user-images.githubusercontent.com/89164540/157997203-d66039ca-41d9-443e-9f0c-f48abd61a4cf.png)
 
 If we approach an object at a distance of less than 30 cm from the second
 sensor, I set the LED on the left of the image to light up (implementation of
@@ -84,12 +84,12 @@ troubleshooting - check if the sensor and distance calculation work
 appropriate), but if a person's face is not recognized by
 room, basket 2 (black) does not open:
 
-! [image] (https://user-images.githubusercontent.com/89164540/157996986-8268f418-bdaa-41ec-9426-306eb8d922c4.png)
+![image](https://user-images.githubusercontent.com/89164540/157997209-c11c5ce7-eabb-4095-97f2-1b853aa1edf1.png)
 
 When the camera also identifies a person, the lid of the basket is
 raised by servomotor:
 
-! [image] (https://user-images.githubusercontent.com/89164540/157996998-34ac8824-3092-44f0-a7df-6b89d02af66e.png)
+![image](https://user-images.githubusercontent.com/89164540/157997213-c1c36410-12db-4acb-bb82-203fc88b4662.png)
 
 Important references:
 https://pythonforundergradengineers.com/python-arduino-LED.html
