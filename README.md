@@ -1,2 +1,2 @@
 # AutomaticTrashCan
-using Arduino, OpenCV, Python
+using Arduino, OpenCV, Python and WebCam for Face Detection
